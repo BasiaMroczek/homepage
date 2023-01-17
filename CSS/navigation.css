@@ -8,6 +8,7 @@
 
 .navigation__item {
     display: inline;
+    color: rgb(71, 66, 62);
     padding: 20px;
     white-space: nowrap;
 }
@@ -26,4 +27,5 @@
 
 .link {
     text-decoration: none;
+    color: rgb(71, 66, 62)
 }
