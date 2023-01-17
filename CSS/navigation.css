@@ -1,0 +1,29 @@
+.navigation {
+    color: rgb(71, 66, 62);
+    text-align: center;
+    display: inline;
+    font-family: 'Jura', sans-serif;
+    max-width: 100%;
+}
+
+.navigation__item {
+    display: inline;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.link:visited {
+    color: rgb(71, 66, 62);
+}
+
+.link:active {
+    color: white;
+}
+
+.link:hover {
+    background-color: rgb(187, 180, 175);
+}
+
+.link {
+    text-decoration: none;
+}

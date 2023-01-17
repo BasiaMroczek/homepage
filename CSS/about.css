@@ -1,0 +1,29 @@
+.about {
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    padding: 30px;
+}
+
+.about__title {
+    text-align: left;
+    font-family: 'Jura', sans-serif;
+    margin-top: 60px;
+}
+
+.about__paragraph {
+    text-align: justify;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 5px 10px 20px 10px;
+}
+
+.about__image {
+    margin: 50px 20px 30px 20px;
+    display: flex;
+    box-shadow: 1px 5px 15px #00000086;
+    /* border-radius: 50%; */
+    float: left;
+    max-width: 100%;
+}

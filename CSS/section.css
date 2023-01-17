@@ -1,0 +1,17 @@
+.section {
+    margin: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.section__title {
+    text-align: left;
+    font-family: 'Jura', sans-serif;
+    margin: 50px 0 0 0;
+}
+
+.section__subtitle {
+    margin: 15px;
+    text-align: justify;
+    font-family: 'Jura', sans-serif;
+}
