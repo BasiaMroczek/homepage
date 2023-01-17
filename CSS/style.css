@@ -17,8 +17,8 @@ html {
 }
 
 .button {
-    background-color: rgb(177, 177, 177);
-    border: solid #69696981;
+    background-color: #d8cfc7;
+    border: solid rgb(66, 66, 66);
     border-radius: 10px;
     margin-left: 5%;
 }
