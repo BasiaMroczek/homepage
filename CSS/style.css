@@ -16,16 +16,16 @@ html {
     background-color: #d8cfc7;
 }
 
+.body--dark {
+    color: rgb(255, 255, 255);
+    background: rgba(71, 66, 62, 0.589);
+}
+
 .button {
     background-color: #d8cfc7;
     border: solid rgb(66, 66, 66);
     border-radius: 10px;
     margin-left: 5%;
-}
-
-.dark {
-    color: rgb(255, 255, 255);
-    background: rgb(66, 66, 66);
 }
 
 .introduction {

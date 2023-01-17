@@ -1,9 +1,19 @@
-console.log("Cześć!");
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+{
+    const welcome = () => console.log("Good to see you!");
 
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
-    themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-});
+    const changeBackground = () => {
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".js-themeName");
+
+        body.classList.toggle("body--dark");
+        themeName.innerText = body.classList.contains("body--dark") ? "jasny" : "ciemny";
+    }
+    const init = () => {
+        const button = document.querySelector(".js-button");
+
+        welcome();
+
+        button.addEventListener("click", changeBackground);
+    }
+    init();
+}
